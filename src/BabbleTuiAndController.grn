@@ -1,0 +1,46 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=Babble/src<edu.westga.cs6241.babble{Babble.java[Babble"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="164"/>
+      <y="56"/>
+   </type>
+   <type>
+      <name="=Babble/src<edu.westga.cs6241.babble.controllers{BabbleController.java[BabbleController"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="443"/>
+      <y="181"/>
+   </type>
+   <type>
+      <name="=Babble/src<edu.westga.cs6241.babble.controllers{WordDictionary.java[WordDictionary"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="48"/>
+      <y="267"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.composition.CompositionPart"/>
+      <sourceType="=Babble/src<edu.westga.cs6241.babble.controllers{BabbleController.java[BabbleController"/>
+      <targetType="=Babble/src<edu.westga.cs6241.babble.controllers{WordDictionary.java[WordDictionary"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <type>
+      <name="=Babble/src<edu.westga.cs6241.babble.views{BabbleTUI.java[BabbleTUI"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="909"/>
+      <y="196"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=Babble/src<edu.westga.cs6241.babble.views{BabbleTUI.java[BabbleTUI"/>
+      <targetType="=Babble/src<edu.westga.cs6241.babble.controllers{BabbleController.java[BabbleController"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+
